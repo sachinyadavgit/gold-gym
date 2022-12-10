@@ -1,0 +1,91 @@
+
+section.plan-back{
+    background-image: min-height:100vh;
+    width:100% ;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(GYM.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative
+}
+div.images img{
+    align-content: center;
+    padding: 127px;
+    padding-bottom: 15px
+}
+table.explain{
+    color: white;
+    text-align: center
+}
+table.explain td h1{
+    font-size: 50px;
+    padding:147px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-top: 0;
+}
+table.explain tr td.silver td.gold td.platinum{
+    padding-top:15px;
+} 
+table.explain td{
+    font-size: 30px;
+}
+table.explain td h1.gold{
+    padding-left: 185px;
+}
+table.explain td h1.platinum{
+    padding-left: 120px;
+}
+.photo h1{
+    font-size: 67px;
+    text-align: center;
+    color: white;
+}
+.photo img{
+    display:inline-block;
+    height:250px;
+    margin:40px;
+    top:30px;
+    border-radius: 15px;
+}
+.button{
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .button:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .button{
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }
